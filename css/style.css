@@ -127,3 +127,20 @@ a {
 	color: #008080;
 	border: 1px solid #008080;
 }
+
+/* Footer */
+
+.footer {
+	background-color: #22313F;
+	color:white; 
+	padding: 2rem;
+	text-align: center;
+
+}
+.footer .paragraph{
+	color: white;
+}
+.footer a {
+	color:white;
+
+}
