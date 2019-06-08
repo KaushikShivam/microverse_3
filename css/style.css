@@ -100,6 +100,17 @@ a {
 	text-decoration: none;
 }
 
+
+button {
+	
+	margin-top: 8rem;
+	padding: 1rem 3rem;
+	text-align: center;
+	color: #008080;
+	border: 1px solid #008080;
+	background: #e0ebe8;
+}
+
 /* Section social */
 .social {
 	display: flex;
@@ -144,3 +155,7 @@ a {
 	color:white;
 
 }
+
+
+
+
