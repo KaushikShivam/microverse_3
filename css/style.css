@@ -160,10 +160,25 @@ a {
 	flex-direction: column;
 	margin-top: 10rem;
 	align-items: center;
-	background-color: #c8f7c5;
 	padding: 10rem;
+
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6) ),
+		url(../img/bg2.jpg);
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	object-fit: fill;
+
 }
 
+.social .paragraph {
+	font-weight: 700;
+	font-size: 3rem;
+	color:rgba(13, 85, 130, 0.8);
+}
+.social .heading-secondary {
+	margin-bottom: 0.5rem;
+}
 .social-links {
 	display: flex;
 }
