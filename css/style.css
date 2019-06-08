@@ -16,4 +16,30 @@ body {
 	font-family: 'Lato', serif;
 	font-weight: 400;
 	line-height: 1.6;
+	position: relative;
+	font-size: 2rem;
+}
+
+/* Navigation section */
+.nav-bar {
+	position: fixed;
+	background-color: #e0ebe8;
+	width: 100%;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	padding: 1.5rem;
+}
+
+.nav-link {
+	text-decoration: none;
+	margin-left: 10rem;
+	color: #008080;
+}
+
+.nav-items:last-child {
+	margin-right: 10rem;
 }
