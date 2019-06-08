@@ -23,8 +23,8 @@ body {
 /* Navigation section */
 .nav-bar {
 	position: fixed;
-	background-color: #e0ebe8;
 	width: 100%;
+	background: linear-gradient(to right, rgba(171, 0, 0, 1), rgba(13, 85, 130, 1));
 }
 
 .nav-links {
@@ -34,10 +34,19 @@ body {
 	padding: 1.5rem;
 }
 
-.nav-link {
+.nav-link:link,
+.nav-link:visited {
 	text-decoration: none;
 	margin-left: 10rem;
-	color: #008080;
+	color: white;
+	transition: all 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+	color: white;
+	padding-bottom: 1.5rem;
+	border-bottom: 4px solid white;
 }
 
 .nav-items:last-child {
@@ -45,6 +54,14 @@ body {
 }
 
 /* Header section */
+
+.background {
+	background: linear-gradient(to right, rgba(171, 0, 0, 0.6), rgba(13, 85, 130, 0.8)),
+		url(../img/background.jpg);
+	background-position: center;
+	background-size: 100%;
+}
+
 .welcome-section {
 	width: 100%;
 	height: 100vh;
@@ -52,17 +69,20 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #e0ebe8;
 }
 
 .heading-primary {
-	font-size: 4rem;
-	font-weight: 400;
+	font-size: 6rem;
+	font-weight: 700;
 	line-height: 1;
+	color: white;
 }
 
 .paragraph {
-	color: #008080;
+	color: white;
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+	border: 2px solid white;
 }
 
 /* Projects Section */
@@ -155,6 +175,6 @@ button {
 /* Media query for 1000px */
 @media screen and (max-width: 1000px) {
 	body {
-		font-size: 55%;
+		font-size: 60%;
 	}
 }
