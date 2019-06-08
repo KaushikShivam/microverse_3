@@ -79,14 +79,14 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.project-title img {
+.project-tile img {
 	height: 100%;
 	width: 100%;
 }
-.project-title {
+.project-tile {
 	border: 1px solid #008080;
 }
-.project-title .paragraph {
+.project-tile .paragraph {
 	margin: 0;
 	padding: 0;
 	border: 1px solid #008080;
@@ -100,9 +100,7 @@ a {
 	text-decoration: none;
 }
 
-
 button {
-	
 	margin-top: 8rem;
 	padding: 1rem 3rem;
 	text-align: center;
@@ -142,20 +140,21 @@ button {
 /* Footer */
 
 .footer {
-	background-color: #22313F;
-	color:white; 
+	background-color: #22313f;
+	color: white;
 	padding: 2rem;
 	text-align: center;
-
 }
-.footer .paragraph{
+.footer .paragraph {
 	color: white;
 }
 .footer a {
-	color:white;
-
+	color: white;
 }
 
-
-
-
+/* Media query for 1000px */
+@media screen and (max-width: 1000px) {
+	body {
+		font-size: 55%;
+	}
+}
